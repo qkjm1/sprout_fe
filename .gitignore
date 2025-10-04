@@ -20,3 +20,7 @@ coverage/
 *.zip
 *.tar
 *.tgz
+**/node_modules/
+*.zip
+*.tar
+*.tgz
