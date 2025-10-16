@@ -2,7 +2,7 @@
 
 "use client";
 import React, { useEffect, useState } from "react";
-import type { DiaryEntry, Mood } from "@/components/diary/type/diary";
+import type { DiaryEntryUI, Mood } from "@/components/diary/type/diary";
 import { Card, Button } from "@/components/diary/ui/atoms";
 
 type FormPayload = {
@@ -15,7 +15,7 @@ type FormPayload = {
 
 type Props = {
   initialDate: string;                 // 기본 date 값 (보통 오늘)
-  editing?: DiaryEntry | null;         // 수정 중인 아이템
+  editing?: DiaryEntryUI | null;         // 수정 중인 아이템
   onSubmit: (payload: FormPayload) => void;
   onCancelEdit?: () => void;
 };

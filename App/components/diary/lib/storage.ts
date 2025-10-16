@@ -1,3 +1,5 @@
+//App/components/diary/lib/storage.ts
+
 export const DIARY_KEY = "diary_v1";
 export const HQ_KEY = "habitQuest_v1";
 
